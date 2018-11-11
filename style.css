@@ -1,0 +1,131 @@
+body
+{
+	background-color: #e5ffcc;	
+	font-family: 'Oregano';
+	
+}
+#container
+{
+	
+	width: 1000px;
+	margin-left: auto ;
+	margin-right: auto;
+	background-color: #A0FFA0;
+	margin-top: 20px;
+    
+	
+	
+}
+h1
+{
+	font-size: 42px;
+	
+	word-spacing: 50px;
+	letter-spacing: 10px;
+	
+	text-align: center;
+	background-color: #48C848;
+	color:#001a00;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+    
+    animation-name: zmiana;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+h2
+{
+
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	word-spacing: 15px;
+	letter-spacing: 10px;
+	font-size: 23px;
+	background-color: #99ff99;
+	padding: 20px;
+	color:  #003300;
+	
+}
+article
+{
+	font-style: 'Just+Me+Again+Down+Here';
+	margin-top: 0px;
+	align-self: top;
+	padding: 20px;
+	text-align: center;
+	font-size: 22px;
+	background-color:#28A828;
+	color:  #003300;
+
+}
+
+a
+{
+	color: #003300;
+	text-decoration: none; 
+}
+
+@keyframes zmiana
+{
+	0%{background-color: #005800 ; }
+	25%{background-color: #088808 ; }
+	65%{background-color: #48C848; }
+	 85%{background-color: #28A828 ;}
+	 100%{background-color: #005800;}
+    
+}
+
+@keyframes bujaj
+{
+    0%{letter-spacing: 5px;}
+    50%{letter-spacing: 10px;}
+    100%{letter-spacing: 5px;}
+    
+}
+
+#futer
+{
+	clear: both;
+	font-style:  'Arial';
+	font-size: 12px;
+	height:12px;
+	background-color: #007800 ;
+	padding: 10px;
+	
+	color: #60E060;
+	text-align: right;
+    
+    animation-name: bujaj;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(.53, .35, .2, 1.05);
+	
+}
+#futer:hover
+{
+	animation-name: zmiana;
+	animation-duration: 3s;
+    letter-spacing: 5px;
+
+}
+.postcard
+{
+	display: inline-block;
+	width: 250px;
+	text-align: center;
+	padding: 10px;
+	margin-right: 5px
+	margin-left:5px;
+	cursor: none;
+   
+    
+}
+p
+{
+	size: 25px;
+	font-family: 'Oregano';
+}
